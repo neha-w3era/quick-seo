@@ -1,0 +1,144 @@
+.career-post-div {
+  width: 49%;
+  padding: 20px;
+  display: block;
+  border: 1px solid #eee;
+}
+.career-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.post-detail {
+  text-align: center;
+  padding: 10px;
+}
+.post-heading {
+  font-size: 20px;
+  margin-bottom: 17px;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  text-transform: uppercase;
+}
+.post-heading::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: #ed9628;
+  position: relative;
+  z-index: 100;
+  margin-top: 4px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.responsi-tag {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+.career-post-div ul li {
+  color: rgb(33, 37, 41);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.skill-tag {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+.career-apply-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.career-apply-now {
+  margin: auto 0;
+  border: none;
+  max-width: 200px;
+  color: #fff !important;
+  padding: 10px 15px;
+  text-align: center;
+  min-height: inherit !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    rgba(238, 154, 41, 1) 2%,
+    rgba(229, 81, 21, 1) 100%
+  );
+}
+.career-apply-now:hover {
+  background: linear-gradient(
+    to right,
+    rgb(229, 81, 21) 2%,
+    /* Swap colors on hover */ rgb(238, 154, 41) 100%
+  );
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.copyright-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #0e1c29;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.career-page-hr {
+  height: 3px;
+  background-color: black;
+  opacity: 1;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.apply-job-heading {
+  margin: 0px 0 30px 0px;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 35px;
+  font-family: "Roboto", sans-serif;
+}
+.apply-job-para {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.job-form div input,
+.job-form div select,
+.job-form div input[type="file"],
+.job-form div textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 1px solid #eee;
+  background-color: #f7f9f8;
+  font-size: 14px;
+}
+@media (max-width: 992px) {
+  .career-post-div {
+    width: 100%;
+  }
+}

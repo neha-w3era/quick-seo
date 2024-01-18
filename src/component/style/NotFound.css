@@ -1,0 +1,51 @@
+.error-page {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-page-btn {
+  margin-top: 30px;
+  font-weight: 700;
+  padding: 12px 30px;
+  margin-top: 12px;
+
+  background: linear-gradient(
+    to right,
+    rgba(238, 154, 41, 1) 2%,
+    rgba(229, 81, 21, 1) 100%
+  );
+  border-radius: 50px;
+  border: none;
+}
+.error-page-btn:hover{
+    background: linear-gradient(
+        to right,
+        rgb(229, 81, 21) 2%,
+        /* Swap colors on hover */ rgb(238, 154, 41) 100%
+      );
+   
+}
+
+.error-page-btn a {
+  font-weight: 700;
+  text-decoration: none;
+}
+.error-icon {
+  color: white;
+}
+
+.error-page .error-code {
+    display: block;
+    font-size: 150px;
+    line-height: 150px;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:991px){
+   .error-page{
+    height: 100vh;
+   } 
+}
